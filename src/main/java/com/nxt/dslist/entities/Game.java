@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 package com.nxt.dslist.entities;
 
 import jakarta.persistence.Column;
@@ -142,4 +140,4 @@ public class Game {
     }
 
 }
->>>>>>> 675cb45 (Game seed)
+
