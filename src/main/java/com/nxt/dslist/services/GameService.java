@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.nxt.dslist.dto.GameMinDTO;
-import com.nxt.dslist.entities.Game;
 import com.nxt.dslist.repositories.GameRepositry;
 
 @Service

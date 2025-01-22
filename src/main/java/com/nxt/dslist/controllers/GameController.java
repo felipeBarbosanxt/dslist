@@ -7,13 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.nxt.dslist.dto.GameMinDTO;
-import com.nxt.dslist.entities.Game;
 import com.nxt.dslist.services.GameService;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @RestController
 @RequestMapping(value = "/games")
-public class GameController {
+public class GameController {        
 
     @Autowired
     private GameService gameService;
